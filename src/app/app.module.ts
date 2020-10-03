@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { MatExpansionModule } from "@angular/material/expansion";
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { HttpClientModule } from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
