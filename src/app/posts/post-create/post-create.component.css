@@ -1,0 +1,14 @@
+mat-card{
+    background: #fff;
+}
+mat-form-field,
+textarea{
+    width:100%;
+}
+input,
+textarea{
+    color: black;
+}
+button{
+    background:indigo;
+}
